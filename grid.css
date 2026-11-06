@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(150, 85, 170);
+  
+    
+}
+
+.container {
+    border: 2px solid rgb(236, 229, 229);
+    width: 20%;
+    height: 20vh;
+
+margin: 20px;
+
+
+    display: grid;
+ 
+   
+    grid-template-columns: repeat(3 , 1fr);
+    background-color: rgb(240, 238, 240);
+
+    gap: 3px;
+    padding: 3px;
+    background-color: #9a9a9a;
+
+}
+
+.children {
+    background-color: rgb(239, 237, 240);
+}
+
+
+
+.container-1 {
+    border: 2px solid rgb(236, 229, 229);
+    width: 20%;
+    height: 20vh;
+
+margin: 20px;
+
+    display: grid;
+
+    grid-template-areas:
+    "header nav"
+    "header section";
+   
+     grid-template-columns: 1fr 1fr;
+    background-color: rgb(240, 238, 240);
+
+    gap: 3px;
+    padding: 3px;
+    background-color: #9a9a9a;
+    
+}
+
+.children-1 {
+    background-color: rgb(239, 237, 240);
+}
+
+#header-1 {
+    grid-area: header;
+  
+ }
+
+ #nav-1 {
+    grid-area: nav;
+  
+ }
+
+ #section-1 {
+    grid-area: section;
+   
+ }
+
+
+
+ .container-2 {
+    border: 2px solid rgb(236, 229, 229);
+    width: 20%;
+    height: 20vh;
+
+margin: 20px;
+
+    display: grid;
+
+   
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: 1fr 1fr;
+  
+
+    gap: 3px;
+    padding: 3px;
+    background-color: #9a9a9a;
+    
+}
+
+.children-2 {
+    background-color: rgb(239, 237, 240);
+}
+
+
+ .container-3 {
+    border: 2px solid rgb(236, 229, 229);
+    width: 20%;
+    height: 20vh;
+
+margin: 20px;
+
+    display: grid;
+    grid-template-areas:
+    "header nav aside"
+    "header nav aside"
+    "section nav footer"
+    "section article footer"
+
+    ;
+   
+     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  
+
+    gap: 3px;
+    padding: 3px;
+    background-color: #9a9a9a;
+    
+}
+
+.children-3 {
+    background-color: rgb(239, 237, 240);
+}
+
+
+
+#header-3 {
+    grid-area: header;
+  
+ }
+
+ #nav-3 {
+    grid-area: nav;
+  
+ }
+
+ #section-3 {
+    grid-area: section;
+   
+ }
+
+ #article-3 {
+    grid-area: article;
+
+ }
+
+  #aside-3 {
+    grid-area: aside;
+    
+ }
+
+ #footer-3 {
+    grid-area: footer;
+ }
+
+.first-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+     justify-content: center;
+}
+
+
+.container-4 {
+     border: 2px solid rgb(236, 229, 229);
+    width: 20%;
+    height: 20vh;
+
+margin: 20px;
+
+    display: grid;
+    grid-template-areas:
+    "header header header nav nav nav"
+    "section section article article aside aside"
+    ;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+
+     gap: 3px;
+    padding: 3px;
+    background-color: #9a9a9a;
+    
+}
+
+.children-4 {
+    background-color: rgb(239, 237, 240);
+  
+}
+
+#header-4 {
+    grid-area: header;
+  
+ }
+
+ #nav-4 {
+    grid-area: nav;
+  
+ }
+ #section-4 {
+    grid-area: section;
+ }
+
+ 
+
+ #article-4 {
+    grid-area: article;
+
+ }
+
+  #aside-4 {
+    grid-area: aside;
+    
+ }
+
+
+
+ .container-5 {
+    border: 2px solid rgb(236, 229, 229);
+    width: 20%;
+    height: 20vh;
+
+margin: 20px;
+
+    display: grid;
+    grid-template-areas:
+    "header header nav"
+    "header header section"
+    "header header section"
+    "article aside footer"
+
+    ;
+   
+     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  
+
+    gap: 3px;
+    padding: 3px;
+    background-color: #9a9a9a;
+    
+}
+
+.children-5 {
+    background-color: rgb(239, 237, 240);
+}
+
+
+
+#header-5 {
+    grid-area: header;
+  
+ }
+
+ #nav-5 {
+    grid-area: nav;
+  
+ }
+
+ #section-5 {
+    grid-area: section;
+   
+ }
+
+ #article-5 {
+    grid-area: article;
+
+ }
+
+  #aside-5 {
+    grid-area: aside;
+    
+ }
+
+ #footer-5 {
+    grid-area: footer;
+ }
+
+ 
+
+ .container-6 {
+     border: 2px solid rgb(236, 229, 229);
+    width: 20%;
+    height: 20vh;
+
+margin: 20px;
+
+    display: grid;
+    grid-template-areas:
+    "header  nav nav"
+    "header section aside"
+    "header article aside"
+    ;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+
+     gap: 3px;
+    padding: 3px;
+    background-color: #9a9a9a;
+    
+}
+
+.children-6 {
+    background-color: rgb(239, 237, 240);
+  
+}
+
+#header-6 {
+    grid-area: header;
+  
+ }
+
+ #nav-6 {
+    grid-area: nav;
+  
+ }
+ #section-6 {
+    grid-area: section;
+ }
+
+ 
+
+ #article-6 {
+    grid-area: article;
+
+ }
+
+  #aside-6 {
+    grid-area: aside;
+    
+ }
+
+
+ .second-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+     justify-content: center;
+}
+
+
+
+ .container-7 {
+     border: 2px solid rgb(236, 229, 229);
+    width: 20%;
+    height: 20vh;
+
+margin: 20px;
+
+    display: grid;
+    grid-template-areas:
+    "header header header nav nav section"
+    "header  header header nav nav article"
+    "header  header header aside footer foot"
+     "header  header header aside footer foot"
+    ;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+
+     gap: 3px;
+    padding: 3px;
+    background-color: #9a9a9a;
+    
+}
+
+.children-7 {
+    background-color: rgb(239, 237, 240);
+  
+}
+
+#header-7 {
+    grid-area: header;
+  
+ }
+
+ #nav-7 {
+    grid-area: nav;
+  
+ }
+ #section-7 {
+    grid-area: section;
+ }
+
+ 
+
+ #article-7 {
+    grid-area: article;
+
+ }
+
+  #aside-7 {
+    grid-area: aside;
+    
+ }
+ #footer-7 {
+    grid-area: footer;
+ }
+
+ #foot-7 {
+    grid-area: foot;
+ }
+
+
+
+
+
+ .container-8 {
+     border: 2px solid rgb(236, 229, 229);
+    width: 20%;
+    height: 20vh;
+
+margin: 20px;
+
+    display: grid;
+    grid-template-areas:
+    "header nav section article"
+    "aside aside footer footer"
+    " foot main sec gri"
+   
+    ;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+
+     gap: 3px;
+    padding: 3px;
+    background-color: #9a9a9a;
+    
+}
+
+.children-8 {
+    background-color: rgb(239, 237, 240);
+  
+}
+
+#header-8 {
+    grid-area: header;
+  
+ }
+
+ #nav-8 {
+    grid-area: nav;
+  
+ }
+ #section-8 {
+    grid-area: section;
+ }
+
+ 
+
+ #article-8 {
+    grid-area: article;
+
+ }
+
+  #aside-8 {
+    grid-area: aside;
+    
+ }
+ #footer-8 {
+    grid-area: footer;
+ }
+
+ #foot-8 {
+    grid-area: foot;
+ }
+
+ #main-8 {
+    grid-area: main;
+ }
+
+ #sec-8 {
+    grid-area: sec;
+ }
+
+ #gri-8 {
+    grid-area: gri;
+ }
+
+
+ .third-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+     justify-content: center;
+}
